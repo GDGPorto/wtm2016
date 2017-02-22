@@ -6240,19 +6240,13 @@ table.agenda img.nodesign {
 table.agenda td {
 	padding: 20px;
 }
-table.agenda tr td:first-child {
+table.agenda tr td{
 	color: #3a7cec;
 	font-weight: bold;
 	min-width: 150px;
 }
 table.agenda tr:hover td {
-	color: white;
-}
-table.agenda tr:nth-child(2n+2):hover td {
-	background: #04c5a8;
-}
-table.agenda tr:nth-child(2n+1):hover td {
-	background: #2c97db;
+	color: #3059b1;
 }
 #speaker_info {
 	position: fixed;
