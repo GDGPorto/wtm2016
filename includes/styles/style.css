@@ -6244,6 +6244,7 @@ table.agenda tr td{
 	color: #3a7cec;
 	font-weight: bold;
 	min-width: 150px;
+	border-bottom: 2px solid #bdd1f5;
 }
 table.agenda tr:hover td {
 	color: #3059b1;
