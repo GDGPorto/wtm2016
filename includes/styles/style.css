@@ -6220,7 +6220,6 @@ table.agenda {
 	background: rgba(255,255,255,.4);
 	border-radius: 15px;
 	font-size: 16px;
-	cursor: pointer;
 	overflow: hidden;
 	box-shadow: 0px 0px 20px rgba(0,0,0,.1);
 }
@@ -6240,14 +6239,18 @@ table.agenda img.nodesign {
 table.agenda td {
 	padding: 16px 11px;
 }
+.clickable{
+	cursor: pointer;
+	color: #261bb1;
+}
+.clickable:hover {
+	color: #1ce9b6;
+}
 table.agenda tr td{
 	color: #3a7cec;
 	font-weight: bold;
 	min-width: 150px;
 	border-bottom: 2px solid #bdd1f5;
-}
-table.agenda tr:hover td {
-	color: #3059b1;
 }
 #speaker_info {
 	position: fixed;
